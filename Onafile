@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 
 require 'abstract_command'
-require 'isna'
 require 'tmpdir'
 require 'json'
 
