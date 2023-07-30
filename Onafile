@@ -1,14 +1,3 @@
 #!/usr/bin/env ruby
 
-require 'abstract_command'
-require 'tmpdir'
-require 'json'
-
 Ona.prompt = 'fj'
-
-if ARGV.size > 0
-  Ona.defaults
-  Ona.run(ARGV.join(' '))
-  exit 0
-end
-
